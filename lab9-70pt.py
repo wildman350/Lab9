@@ -12,3 +12,10 @@
 # Accept user input 
 # Calculate fahrenheit
 # Output answer
+
+print "please enter the temperature"
+celcius = int(raw_input())
+farenheit = celcius * 9.0/5.0+32
+print "~~~~~~~~~~~~~~~~~~~~~~"
+print "the farenheit is " +str(farenheit)
+print "~~~~~~~~~~~~~~~~~~~~~~"
